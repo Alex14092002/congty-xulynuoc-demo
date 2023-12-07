@@ -1,0 +1,44 @@
+.link_content{
+    margin-left: 0px !important;
+}
+.mega_dropdown , .disable_icon {
+    padding: 10px !important;
+}
+.link_text{
+    font-size: 16px !important;
+}
+.main-tintuc{
+    padding-top: 20px;
+}
+#postRender {
+    padding:  20px 0;
+}
+.post-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.2em; /* Điều chỉnh dựa trên kích thước font và khoảng cách dòng bạn muốn */
+    height: 2.4em; /* Gấp đôi line-height vì bạn muốn hiển thị 2 dòng */
+    word-wrap: break-word;
+  }
+
+.from_the_blog_excerpt{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.2em; /* Điều chỉnh dựa trên kích thước font và khoảng cách dòng bạn muốn */
+    height: 2.4em; /* Gấp đôi line-height vì bạn muốn hiển thị 2 dòng */
+    word-wrap: break-word;
+}  
+
+.submenu {
+    display: none;
+}
+
+.open-submenu {
+    display: block ;
+}
